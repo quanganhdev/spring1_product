@@ -30,6 +30,7 @@ public class ProductService {
             response.setCode(101);
             mess=mess+" Ảnh sản phẩm không được null";
         }
+
         if (request.getContent() == null) {
             response.setCode(101);
             mess=mess+" content sản phẩm không được null";
